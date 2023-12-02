@@ -4,8 +4,10 @@
     <a routerLink="tasks" routerLinkActive="active">📌</a>
     <a routerLink="playground" routerLinkActive="active">🎲</a>
   </div>
-  <div class="clock">
+  <div class="clock" style="padding-top: 5px">
     <!-- date: 'HH:mm:ss' -->
     <span>🕰️ {{ clockNow | date: 'HH:mm:ss' }}</span>
+    <hr />
+    <span style="font-size: 0.65rem; float: right;">version: 1.0</span>
   </div>
 </nav>
