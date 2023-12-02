@@ -1,3 +1,4 @@
 export const environment = {
-  version: "dev"
+  version: "dev",
+  apiURL: "localhost:3000/api/v1"
 };
